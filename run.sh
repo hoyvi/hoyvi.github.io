@@ -1,3 +1,5 @@
+echo 好的，你已完成run.sh的更新
+sleep 2
 echo 3秒后开启服务器...
 echo 关闭服务器 先输入stop
 echo 然后状态栏点击Termux的通知里有stop~
