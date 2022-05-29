@@ -22,7 +22,7 @@ a1)rm /sdcard/Aysback/*Zerotermux_backup.tar.gz && echo OK ;;
 a2)cd ~ && cd ~ && tar -xzvf ./storage/shared/Aysback/2.1_Zerotermux_backup.tar.gz  -C /data/data/com.termux/files1 && mv /data/data/com.termux/files1/data/data/com.termux/files/home /data/data/com.termux/files1 && mv /data/data/com.termux/files1/data/data/com.termux/files/usr /data/data/com.termux/files1 && rm -rf /data/data/com.termux/files1/data && bash -c "$(curl -L https://github.com/hoyvi/hoyvi.github.io/releases/download/jiaoben/alpha1.sh)";;
 0)exit ;;
 exit)exit ;;
-3)cd /sdcard && mkdir Aysback && mv /sdcard/xinhao/data/2.1_Zerotermux_backup.tar.gz /sdcard/Aysback && echo 移动成功! 请输入a2开始恢复吧！;;
+3)cd /sdcard && mkdir Aysback && mv /sdcard/xinhao/data/2.1_Zerotermux_backup.tar.gz /sdcard/Aysback && echo 移动成功! 请输入a2开始恢复吧！&& sleep 3s ;;
 2)echo 当前版本3.0
 echo 更新内容: 极限懒人
 echo 一键自动化脚本
