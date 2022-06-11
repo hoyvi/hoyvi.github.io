@@ -9,7 +9,6 @@ white="\e[0m"
 echo -e "\e[31m检测到新版本，强制更新中...\e[0m"
 cd ~
 sleep 3s
-wget hoyvi.github.io/start_command.sh
 ###czawa制作
 
 ###czawa制作
