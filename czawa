@@ -6,7 +6,7 @@ read -r -p "czawa制作
 2)启动卡池修改器
 
 温馨提示：
-echo 如果长时间卡住，请更换网络！
+如果长时间卡住，请更换网络！
 您输入的是：" input
 case $input in
 1)
