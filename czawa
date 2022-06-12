@@ -5,6 +5,9 @@ G="\e[32m"
 R="\e[31m"
 E="\e[0m"
 #####
+cd ~
+rm start.sh
+clear
 input=$(whiptail --title "czawa Menu" --menu "      欢迎使用czawa制作的Menu，选择一个选项以开始" 20 50 9 \
 	"1" "启动服务器" \
 	"2" "卡池修改器" \
