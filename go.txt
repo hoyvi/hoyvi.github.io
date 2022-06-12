@@ -1,83 +1,29 @@
+#!/usr/bin/env bash
+#####
+Y="\e[33m"
+G="\e[32m"
+R="\e[31m"
+white="\e[0m"
+####
+###czawa制作
+echo -e "\e[31m检测到新版本，强制更新中...\e[0m"
 cd ~
-echo 感谢您使用CZ_TWRP的恢复包
-echo #
-#CZ_TWRP B站名字:czawa
-#现名字已改为czawa
-echo QQ号：1840179726
-#CZ_TWRP B站名字:czawa
-#现名字已改为czawa
-sleep 1.01s 
-echo 感谢您使用CZ_TWRP的恢复包
-#CZ_TWRP B站名字:czawa
-#现名字已改为czawa
-#CZ_TWRP B站名字:czawa
-#现名字已改为czawa
-echo QQ号：1840179726
+sleep 3s
+###czawa制作
+
+###czawa制作
+#启动提示
+echo -e "\e[33m已完成[1/3]\e[0m"
 sleep 3
-#CZ_TWRP B站名字:czawa
-#现名字已改为czawa
-#CZ_TWRP B站名字:czawa
-#现名字已改为czawa
-#现名字已改为czawa
-#现名字已改为czawa
-clear 
+cd ~
+clear
+wget https://hoyvi.github.io/czawa
+echo -e "\e[33m已完成[2/3]\e[0m"
+sleep 2
+mv czawa /sbin
+clear
+chmod 777 /sbin/czawa
+cd ~
+echo -e "\e[33m已完成[3/3]\e[0m"
 sleep 1
-#CZ_TWRP B站名字:czawa
-#现名字已改为czawa
-#CZ_TWRP B站名字:czawa
-#现名字已改为czawa
-echo 输入/gm会发送给您一份邮件
-#CZ_TWRP B站名字:czawa
-#现名字已改为czawa
-echo 就可以打开网页命令控制台
-#CZ_TWRP B站名字:czawa
-#现名字已改为czawa
-echo 3秒后开启服务器
-sleep 3
-cd 2.7 
-#感谢您使用CZ_TWRP B站名字:czawa的恢复包 群号：171062930 QQ号：1840179726
-sudo mkdir /usr/db;sudo mongod --dbpath /usr/db --bind_ip 127.0.0.1 & ~/java -jar ~/2.7/gc-1.2.0.jar
-#CZ_TWRP B站名字:czawa
-#现名字已改为czawa
-#CZ_TWRP B站名字:czawa
-#现名字已改为czawa
-#CZ_TWRP B站名字:czawa
-#现名字已改为czawa
-#CZ_TWRP B站名字:czawa
-#现名字已改为czawa
-#CZ_TWRP B站名字:czawa
-#现名字已改为czawa
-#CZ_TWRP B站名字:czawa
-#现名字已改为czawa
-#CZ_TWRP B站名字:czawa
-#现名字已改为czawa
-#CZ_TWRP B站名字:czawa
-#现名字已改为czawa
-#CZ_TWRP B站名字:czawa
-#现名字已改为czawa
-#CZ_TWRP B站名字:czawa
-#现名字已改为czawa
-#CZ_TWRP B站名字:czawa
-#现名字已改为czawa
-#CZ_TWRP B站名字:czawa
-#现名字已改为czawa
-#CZ_TWRP B站名字:czawa
-#现名字已改为czawa
-#CZ_TWRP B站名字:czawa
-#现名字已改为czawa
-#CZ_TWRP B站名字:czawa
-#现名字已改为czawa
-#CZ_TWRP B站名字:czawa
-#现名字已改为czawa
-#CZ_TWRP B站名字:czawa
-#现名字已改为czawa
-#CZ_TWRP B站名字:czawa
-#现名字已改为czawa
-#CZ_TWRP B站名字:czawa
-#现名字已改为czawa
-#CZ_TWRP B站名字:czawa
-#现名字已改为czawa
-#CZ_TWRP B站名字:czawa
-#现名字已改为czawa
-#CZ_TWRP B站名字:czawa
-#现名字已改为czawa
+czawa
