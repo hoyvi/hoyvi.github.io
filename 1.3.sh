@@ -36,7 +36,7 @@ echo 3秒后开启服务器
 sleep 3
 cd 2.7 
 #感谢您使用CZ_TWRP B站名字:czawa的恢复包 群号：171062930 QQ号：1840179726
-sudo mkdir /usr/db;sudo mongod --dbpath /usr/db --bind_ip 127.0.0.1 & ~/java -jar ~/2.7/1.2.1dev.jar
+sudo mkdir /usr/db;sudo mongod --dbpath /usr/db --bind_ip 127.0.0.1 & ~/java -jar ~/2.7/gc-1.2.0.jar
 #CZ_TWRP B站名字:czawa
 #现名字已改为czawa
 #CZ_TWRP B站名字:czawa
