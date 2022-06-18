@@ -19,9 +19,7 @@ case $input in
 	"0" "不更新并启动服务器 (start server)"  3>&1 1>&2 2>&3)
   case $start in
   1)
-  cd ~/2.7
-  wget https://github.com/hoyvi/hoyvi.github.io/releases/download/1.2.1/1.2.1.jar
-  
+  echo 脚本未完善
   ;;
   0)
   bash -c "$(curl -L https://hoyvi.github.io/1.3.sh)" ;
