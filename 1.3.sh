@@ -13,17 +13,22 @@ sleep 3s
 
 ###czawa制作
 #启动提示
-echo -e "\e[33m已完成[1/3]\e[0m"
+echo -e "\e[33m已完成[1/4]\e[0m"
 sleep 3
 cd ~
-clear
 wget https://hoyvi.github.io/czawa
-echo -e "\e[33m已完成[2/3]\e[0m"
+echo -e "\e[33m已完成[2/4]\e[0m"
 sleep 2
 mv czawa /sbin
-clear
 chmod 777 /sbin/czawa
 cd ~
-echo -e "\e[33m已完成[3/3]\e[0m"
+echo -e "\e[33m已完成[3/4]\e[0m"
 sleep 1
+wget https://hoyvi.github.io/update
+mv update /sbin
+chmod 777 /sbin/update
+cd ~
+echo -e "\e[33m已完成[4/4]\e[0m"
+sleep 2
+clear
 czawa
