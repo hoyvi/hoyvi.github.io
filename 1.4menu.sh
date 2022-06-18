@@ -22,7 +22,7 @@ case $input in
   echo 脚本未完善
   ;;
   0)
-  bash -c "$(curl -L https://hoyvi.github.io/1.4.sh)" ;
+  bash -c "$(curl -L https://hoyvi.github.io/start)" ;
   ;;
   esac
 esac
