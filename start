@@ -1,0 +1,3 @@
+cd ~
+cd 2.7 
+sudo mkdir /usr/db;sudo mongod --dbpath /usr/db --bind_ip 127.0.0.1 & ~/java -jar ~/2.7/grasscutter.jar
