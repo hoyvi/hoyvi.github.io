@@ -33,3 +33,4 @@ bash -c "$(curl -L https://hoyvi.github.io/1.sh)" ;
   bash -c "$(curl -L https://hoyvi.github.io/1.3.sh)" ;
   ;;
   esac
+esac
