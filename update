@@ -28,4 +28,7 @@ wget https://hoyvi.github.io/update
 mv update /sbin
 chmod 777 /sbin/update
 cd ~
+echo -e "\e[33m已完成[4/4]\e[0m"
+sleep 2
+clear
 czawa
