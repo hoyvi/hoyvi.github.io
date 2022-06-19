@@ -27,7 +27,11 @@ cd ~
 rm 2.7/config.json
 echo 正在通过互联网下载config.json...
 cd ~/2.7
+sleep 3
 wget https://hoyvi.github.io/config.json
+sleep 2
+echo 修复完成！
+sleep 1.4
 czawa
 ;;
 esac
