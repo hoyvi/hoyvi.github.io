@@ -1,6 +1,8 @@
 cd ~
 wget https://hoyvi.github.io/proxy.py
 wget https://hoyvi.github.io/proxy_config.py
+rm proxy.py.*
+rm proxy_config.py.*
 cd 2.7 
 sleep
 echo 老样子，代理端口20000
