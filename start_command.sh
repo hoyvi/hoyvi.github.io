@@ -28,13 +28,13 @@ clear
 #./.xinhao_history/history.sh > /dev/null &
 #--------------------------------------------
 
-echo -e "\e[33m请输入命令：czawa 启动菜单！\e[0m"
-echo -e "\e[33m请输入命令：czawa 启动菜单！\e[0m"
-echo -e "\e[33m请输入命令：czawa 启动菜单！\e[0m"
-echo -e "\e[33m请输入命令：czawa 启动菜单！\e[0m"
-echo -e "\e[33m请输入命令：czawa 启动菜单！\e[0m"
-echo -e "\e[33m请输入命令：czawa 启动菜单！\e[0m"
-echo -e "\e[33m请输入命令：czawa 启动菜单！\e[0m"
-echo -e "\e[33m请输入命令：czawa 启动菜单！\e[0m"
-echo -e "\e[33m请输入命令：czawa 启动菜单！\e[0m"
+echo -e "\e[33m请输入命令：czawa 启动菜单！update 检查更新！\e[0m"
+echo -e "\e[33m请输入命令：czawa 启动菜单！update 检查更新！\e[0m"
+echo -e "\e[33m请输入命令：czawa 启动菜单！update 检查更新！\e[0m"
+echo -e "\e[33m请输入命令：czawa 启动菜单！update 检查更新！\e[0m"
+echo -e "\e[33m请输入命令：czawa 启动菜单！update 检查更新！\e[0m"
+echo -e "\e[33m请输入命令：czawa 启动菜单！update 检查更新！\e[0m"
+echo -e "\e[33m请输入命令：czawa 启动菜单！update 检查更新！\e[0m"
+echo -e "\e[33m请输入命令：czawa 启动菜单！update 检查更新！\e[0m"
+echo -e "\e[33m请输入命令：czawa 启动菜单！update 检查更新！\e[0m"
 debian
