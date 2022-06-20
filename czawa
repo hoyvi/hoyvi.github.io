@@ -20,21 +20,11 @@ echo 如果长时间卡住，请更换网络！
 bash -c "$(curl -L https://hoyvi.github.io/1.5menu.sh)" ;;
 2)
 echo 如果长时间卡住，请更换网络！
-bash -c "$(curl -L https://hoyvi.github.io/1.sh)" ;;
+bash -c "$(curl -L https://hoyvi.github.io/1.5menu.sh)" ;;
 3)
-echo 请稍后...
-cd ~
-rm 2.7/config.json
-echo 正在通过互联网下载config.json...
-cd ~
-sleep 3
-wget https://hoyvi.github.io/config.json
-sleep 2
-cd ~
-mv config.json ~/2.7/
-echo 修复完成！
-sleep 1.4
-czawa
+echo 维护中..
+echo 请更新您的恢复包
+sleep 5
 ;;
 esac
 #########czawa\?).,)制作 (?|QQ：18(.|(4017972?(?6
