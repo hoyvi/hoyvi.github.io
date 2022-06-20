@@ -18,6 +18,7 @@ rm -rf /grasscutter/logs
 echo 删除完成！即将返回菜单
 sleep 3
 czawa
+;;
 0)bash -c "$(curl -L https://hoyvi.github.io/czawa)" 
 ;;
 1)
