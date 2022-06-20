@@ -22,7 +22,7 @@ echo -e "\e[33m已完成[2/3]\e[0m"
 sleep 2
 mv nczawa /sbin
 chmod 777 /sbin/nczawa
-mv /sbin/nczawa /sbin czawa
+mv /sbin/nczawa /sbin/czawa
 cd ~
 echo -e "\e[33m已完成[3/3]\e[0m"
 sleep 1
@@ -30,7 +30,7 @@ echo -e "\e[33m正在处理一点事情...\e[0m"
 wget https://hoyvi.github.io/1update
 mv 1update /sbin
 chmod 777 /sbin/1update
-mv /sbin/1update /sbin update
+mv /sbin/1update /sbin/update
 cd ~
 sleep 1
 clear
