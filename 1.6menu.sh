@@ -21,7 +21,7 @@ czawa
 ;;
 1)
    start=$(whiptail --title "czawa-Update" --menu "      欢迎使用czawa制作的Menu，选择一个选项以开始\n当前已是最新版本.\n版本号：1.2.1-dev" 20 50 9 \
-        "1" "启动含有代理的服务器 (Start Proxy Server)" \
+        "1" "[维护中]启动含有代理的服务器 (Start Proxy Server)" \
 	"0" "不更新并启动服务器 (Start Server)"  3>&1 1>&2 2>&3)
   case $start in
   3)
