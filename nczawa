@@ -21,6 +21,6 @@ echo 如果长时间卡住，请更换网络！
 bash -c "$(curl -L https://hoyvi.github.io/1.6menu.sh)" ;;
 2)
 echo 如果长时间卡住，请更换网络！
-bash -c "$(curl -L https://hoyvi.github.io/1.sh)" ;;
+bash -c "$(curl -L https://hoyvi.github.io/kc.sh)" ;;
 esac
 #########czawa\?).,)制作 (?|QQ：18(.|(4017972?(?6
