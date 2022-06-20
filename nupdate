@@ -1,4 +1,7 @@
-
+rm ~/nczaw*
+rm ~/czaw*
+rm ~/nupda*
+clear
 ###czawa制作
 #启动提示
 echo -e "\e[33m已完成[1/4]\e[0m"
@@ -7,14 +10,14 @@ cd ~
 wget https://hoyvi.github.io/nczawa
 echo -e "\e[33m已完成[2/4]\e[0m"
 sleep 2
-mv czawa /sbin
-chmod 777 /sbin/czawa
+mv nczawa /sbin
+chmod 777 /sbin/nczawa
 cd ~
 echo -e "\e[33m已完成[3/4]\e[0m"
 sleep 1
 wget https://hoyvi.github.io/nupdate
-mv update /sbin
-chmod 777 /sbin/update
+mv nupdate /sbin
+chmod 777 /sbin/nupdate
 cd ~
 echo -e "\e[33m已完成[4/4]\e[0m"
 sleep 2
