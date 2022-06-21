@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+#####
+Y="\e[33m"
+G="\e[32m"
+R="\e[31m"
+E="\e[0m"
+#####
+echo -e "\e[32m暂无更新\e[0m"
