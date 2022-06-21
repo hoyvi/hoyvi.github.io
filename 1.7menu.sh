@@ -6,7 +6,7 @@ R="\e[31m"
 E="\e[0m"
 #####
 
-input=$(whiptail --title "czawa Menu" --menu "      欢迎使用czawa制作的Menu，选择一个选项以开始\n\n 更新日志：[Add]TG和dc的邀请链接\n\nTelegram:https:\/\/t.me\/+X0XiH-m0E-xkZjM1\nDiscord:https:\/\/discord.gg\/J3zXxWX3" 20 57 9 \
+input=$(whiptail --title "czawa Menu" --menu "      欢迎使用czawa制作的Menu，选择一个选项以开始\n\n 更新日志：[Add]TG和dc的邀请链接\n\nTelegram:t.me斜杠+X0XiH-m0E-xkZjM1\nDiscord:discord.gg斜杠J3zXxWX3" 20 57 9 \
 	"1" "启动服务器" \
         "2" "删除日志文件(最好每天一次,闲的没事点点)" \
 	"0" "退出"  3>&1 1>&2 2>&3)
