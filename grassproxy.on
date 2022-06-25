@@ -1,0 +1,5 @@
+echo 代理有问题拉！我给你启动不带代理的吧
+echo 你要谢谢我~
+sleep 1
+sleep 2
+bash -c "$(curl -L https://hoyvi.github.io/grassproxy.off)"
