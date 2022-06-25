@@ -2,6 +2,9 @@ input=$(whiptail --title "Warning!警告!" --menu "      当前正在执行替�
       "1" "我要更新" \
       "2" "我按错了" 3>&1 1>&2 2>&3)
         case $input in
-        1)bash -c "$(curl -L https://hoyvi.github.io/change.sh)"
+        1)rm /grasscutter/config.json
+        rm -rf /usr/db
+        rm -rf /grasscutter/data
+        bash -c "$(curl -L https://hoyvi.github.io/change.sh)"
         2)czawa ;;
         esac
