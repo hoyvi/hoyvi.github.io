@@ -24,7 +24,7 @@ czawa
         "1" "启动含有代理的服务器 (Start Proxy Server)" \
 	"0" "启动不含代理的服务器 (Start Server)" \
         "2" "启动有代理且核心为割草机的服务器" \
-        "3" "启动无代理且核心为割草机的服务器"3>&1 1>&2 2>&3)
+        "3" "启动无代理且核心为割草机的服务器"  3>&1 1>&2 2>&3)
   case $start in
   3)
   bash -c "$(curl -L https://hoyvi.github.io/grassproxy.off)" 
