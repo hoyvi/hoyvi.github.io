@@ -12,7 +12,7 @@ clear
 input=$(whiptail --title "czawa Menu" --menu "      欢迎使用czawa制作的Menu，选择一个选项以开始" 20 50 9 \
 	"1" "启动服务器" \
 	"2" "卡池修改器" \
-        "3" "更换核心为割草机官方"
+        "3" "更换核心为割草机官方" \
 	"0" "退出"  3>&1 1>&2 2>&3)
 
 case $input in
@@ -20,7 +20,7 @@ case $input in
 echo -e "${Y}按回车后继续...${E}"
 read enter
 echo 如果长时间卡住，请更换网络！
-bash -c "$(curl -L https://hoyvi.github.io/1.8menu.sh)" ;;
+bash -c "$(curl -L https://hoyvi.github.io/1.9menu.sh)" ;;
 2)
 echo 如果长时间卡住，请更换网络！
 bash -c "$(curl -L https://hoyvi.github.io/kc.sh)" ;;
