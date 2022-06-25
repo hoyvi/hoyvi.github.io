@@ -27,8 +27,8 @@ cd ~
 echo -e "\e[33m已完成[3/3]\e[0m"
 sleep 1
 echo -e "\e[33m正在处理一点事情...\e[0m"
-wget https://hoyvi.github.io/1.7update
-mv 1.7update update
+wget https://hoyvi.github.io/1.9update
+mv 1.9update update
 mv update /sbin
 chmod 777 /sbin/update
 cd ~
