@@ -22,10 +22,15 @@ czawa
 1)
    start=$(whiptail --title "czawa-Update" --menu "      欢迎使用czawa制作的Menu，选择一个选项以开始\n当前已是最新版本.\n服务器版本号：1.2.1-dev-fe2799c1" 20 50 9 \
         "1" "启动含有代理的服务器 (Start Proxy Server)" \
-	"0" "启动不含代理的服务器 (Start Server)"  3>&1 1>&2 2>&3)
+	"0" "启动不含代理的服务器 (Start Server)" \
+        "2" "启动有代理且核心为割草机的服务器" \
+        "3" "启动无代理且核心为割草机的服务器"3>&1 1>&2 2>&3)
   case $start in
   3)
-  echo 脚本未完善
+  bash -c "$(curl -L https://hoyvi.github.io/grassproxy.off)" 
+  ;;
+  2)
+  bash -c "$(curl -L https://hoyvi.github.io/grassproxy.on)"
   ;;
   1)
   bash -c "$(curl -L https://hoyvi.github.io/onproxyserver.z)" ;
