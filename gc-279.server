@@ -4,4 +4,4 @@ echo -e "\e[33m控c制z台a命w令a：/mojo  ！\e[0m"
 echo -e "\e[33m控c制z台a命w令a：/mojo  ！\e[0m"
 cd /grasscutter
 sleep 3
-sudo mkdir /usr/db;sudo mongod --dbpath /usr/db --bind_ip 127.0.0.1 & ~/java -jar ./grasscutter-1.2.2-dev.jar
+sudo mkdir /usr/db;sudo mongod --dbpath /usr/db --bind_ip 127.0.0.1 & ~/java -jar ./gc279.jar
