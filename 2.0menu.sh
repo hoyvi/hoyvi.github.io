@@ -8,8 +8,10 @@ E="\e[0m"
 clear
 cd /grasscutter
 rm config.json
-wget https://hoyvi.github.io/config.json & clear
+wget https://hoyvi.github.io/config.json 
+sleep 1
 clear
+sleep 0.1
 
 input=$(whiptail --title "czawa Menu" --menu "      欢迎使用czawa制作的Menu，选择一个选项以开始 \n Telegram  t.me/+X0XiH-m0E-xkZjM1\nDiscord是discord.gg/J3zXxWX3" 20 57 9 \
 	"1" "启动服务器" \
