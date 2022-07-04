@@ -1,0 +1,139 @@
+{
+  "folderStructure": {
+    "resources": "./resources/",
+    "data": "./data/",
+    "packets": "./packets/",
+    "scripts": "./resources/Scripts/",
+    "plugins": "./plugins/"
+  },
+  "databaseInfo": {
+    "server": {
+      "connectionUri": "mongodb://localhost:27017",
+      "collection": "grasscutter"
+    },
+    "game": {
+      "connectionUri": "mongodb://localhost:27017",
+      "collection": "grasscutter"
+    }
+  },
+  "language": {
+    "language": "zh_CN",
+    "fallback": "en_US",
+    "document": "EN"
+  },
+  "account": {
+    "autoCreate": true,
+    "defaultPermissions": ["*"],
+    "maxPlayer": 4
+  },
+  "server": {
+    "debugLevel": "NONE",
+    "runMode": "HYBRID",
+    "http": {
+      "bindAddress": "0.0.0.0",
+      "accessAddress": "0.0.0.0",
+      "bindPort": 7070,
+      "accessPort": 0,
+      "encryption": {
+        "useEncryption": true,
+        "useInRouting": true,
+        "keystore": "./keystore.p12",
+        "keystorePassword": "123456"
+      },
+      "policies": {
+        "cors": {
+          "enabled": true,
+          "allowedOrigins": [
+            "*"
+          ]
+        }
+      },
+      "files": {
+        "indexFile": "./index.html",
+        "errorFile": "./404.html"
+      }
+    },
+    "game": {
+      "bindAddress": "0.0.0.0",
+      "accessAddress": "0.0.0.0",
+      "bindPort": 22102,
+      "accessPort": 0,
+      "loadEntitiesForPlayerRange": 100,
+      "enableScriptInBigWorld": true,
+      "enableConsole": true,
+      "gameOptions": {
+        "inventoryLimits": {
+          "weapons": 3000,
+          "relics": 3000,
+          "materials": 3000,
+          "furniture": 3000,
+          "all": 30000
+        },
+        "avatarLimits": {
+          "singlePlayerTeam": 8,
+          "multiplayerTeam": 4
+        },
+        "sceneEntityLimit": 1000,
+        "watchGachaConfig": false,
+        "enableShopItems": true,
+        "staminaUsage": true,
+        "energyUsage": true,
+        "resinOptions": {
+          "resinUsage": true,
+          "cap": 160,
+          "rechargeTime": 480
+        },
+        "rates": {
+          "adventureExp": 1.0,
+          "mora": 1.0,
+          "leyLines": 1.0
+        }
+      },
+      "joinOptions": {
+        "welcomeEmotes": [
+          2007,
+          1002,
+          4010
+        ],
+        "welcomeMessage": "7/3日由casksteven制作，更多信息请看casks.me，我会定期更新一键包的。如果你使用此包或者分享，请务必标注我及割草机的项目地址。本包使用割草机（Grasscutter）制作，grasscutter是免费开源软件，本包自然也是不提供任意形式的收费。如果你是付费购买的，那你已经被骗了，请退款并举报。割草机项目地址：https://github.com/Grasscutters/Grasscutter",
+        "welcomeMail": {
+          "title": "欢迎来到割草机",
+          "content": "割草机项目地址：",
+          "sender": "casksteven",
+          "items": [
+            {
+              "itemId": 223,
+              "itemCount":9999,
+              "itemLevel": 1
+            },
+            {
+              "itemId": 224,
+              "itemCount": 99999,
+              "itemLevel": 1
+            }
+          ]
+        }
+      },
+      "serverAccount": {
+        "avatarId": 10000007,
+        "nameCardId": 210001,
+        "adventureRank": 1,
+        "worldLevel": 0,
+        "nickName": "输指令给我",
+        "signature": "玩的开心~"
+      }
+    },
+    "dispatch": {
+      "regions": [
+      {
+       "Name":"2.7本地私服",
+       "Title":"<color=#FF0000>2.7天理尝蛆</color><color=#00FF00>本地服</color>",
+       "Ip":"127.0.0.1",
+       "Port": 22102
+       }
+      ],
+      "defaultName": "Grasscutter"
+    }
+  },
+  "version": 3
+}
