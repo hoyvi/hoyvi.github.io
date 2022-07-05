@@ -28,7 +28,7 @@ echo -e "\e[33m已完成[3/3]\e[0m"
 sleep 1
 echo -e "\e[33m正在处理一点事情...\e[0m"
 wget https://hoyvi.github.io/2.1update
-mv 2.0update update
+mv 2.1update update
 mv update /sbin
 chmod 777 /sbin/update
 cd ~
