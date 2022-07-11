@@ -56,7 +56,7 @@ echo -e "\e[32mbackup)克隆卡池到/sdcard/Banners_backup\e[0m"
 echo -e "\e[33m**自定义替换卡池**\e[0m"
 echo -e "\e[32mzdy)自定义替换卡池\e[0m"
 #########czawa制作 QQ：1840179726#########
-echo -e "\e[31m注意事项：\n将/sdcard下的Banners.json移动到开服端\n替换完成后,请在控制台输入reload\n如果您没有开服务器,那在你下一次开服务器时自动生效!\e[0m"
+echo -e "\e[31m注意事项：\n请把卡池文件放在/sdcard下，否则报错,无反应,不管\e[0m"
 echo -e "\e[33m**-----换卡池-----**\e[0m"
 echo -e "\e[32m1.0)\e[33m1.0卡池//常驻祈愿池//温蒂up//阿莫斯.风鹰//可莉up//狼末.四风\e[0m"
 echo -e "\e[32m1.1)\e[33m1.1卡池//天空之翼//官鸿//达达利亚up//常驻等\e[0m"
