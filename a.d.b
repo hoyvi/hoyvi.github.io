@@ -8,4 +8,4 @@ mv start_command.sh.zx ~/.xinhao_history/start_command.sh
 echo [1/1]已完成...
 chmod 777 ~/.xinhao_history/start_command.sh
 echo 即将进入下一环节
-debian
+exit
